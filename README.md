@@ -22,7 +22,7 @@
 
  <h1 align="center">Vertical Resizable Tabs </h1>
   <p align="center">
-    A lightweight and elegant Flutter widget to create resizable tab layouts with a draggable divider.
+    A Flutter widget that displays two vertically resizable panels separated by a draggable divider.
     <br />
     <a href="https://pub.dev/packages/vertical_resizable_tabs"><strong>Explore on pub.dev »</strong></a>
   </p>
@@ -59,8 +59,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-`vertical_resizable_tabs` is a Flutter package that provides a **split-view layout** with two tabs (or panels) separated by a **draggable divider**.  
-Perfect for IDE-like layouts, dashboards, editors, and responsive designs.
+`vertical_resizable_tabs` is a Flutter package that provides a **split-view layout** with two tabs (or panels) separated by a **draggable divider**.
 
 
 <!-- ROADMAP -->
@@ -104,7 +103,7 @@ Make sure you have Flutter installed on your machine:
   *  pubspec.yaml
      ```yaml
      dependencies:
-       vertical_resizable_tabs: ^1.1.0
+       vertical_resizable_tabs: ^1.0.0
      ```
         
 
@@ -128,17 +127,27 @@ Make sure you have Flutter installed on your machine:
 Here’s a simple example of creating a resizable tabs layout:
  ```dart
       Scaffold(
-            body: ResizableTabs(
-                tabOne: Container(
-                  color: Colors.blue.shade200,
-                  child: const Center(child: Text('Left Tab')),
-                ),
-                tabTwo: Container(
-                  color: Colors.green.shade200,
-                  child: const Center(child: Text('Right Tab')),
-                ),
-              ),
-          ),
+      appBar: AppBar(
+        title: Text('Vertical resizable tabs exemple'),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+      ),
+      body: ResizableTabsVertical(
+        radius: 12,
+        topTab: Container(
+          height: double.infinity,
+          width: double.infinity,
+          color: Colors.lightBlue[100],
+          child: Center(child: Text('Top tab')),
+        ),
+        bottomTab: Container(
+          height: double.infinity,
+          width: double.infinity,
+          color: Colors.lightGreen[100],
+          child: Center(child: Text('Bottom tap')),
+        ),
+      ),
+    );
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
