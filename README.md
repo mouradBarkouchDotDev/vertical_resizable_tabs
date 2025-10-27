@@ -201,7 +201,7 @@ Mourad BARKOUCH
 [repo-url]: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs
 
 [License-shield]: https://img.shields.io/badge/-License-yellow.svg?style=for-the-badge&logo=security
-[License-url]: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs/blob/m.barkouch.branch/LICENSE
+[License-url]: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs/blob/mouradBarkouchDotDev/LICENSE
 
 
 [pub.dev-shield]: https://img.shields.io/badge/-pub.dev-blue.svg?style=for-the-badge&logo=dart
