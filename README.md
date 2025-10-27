@@ -10,7 +10,7 @@
 
   <h3>Table of Contents</h3>
   <ol>
-    <li><a href="#image">Excemple</a></li>
+    <li><a href="#image">Preview</a></li>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#features">Features</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
@@ -33,7 +33,10 @@
 
 
  <div align="center" id="image">
-  <video src="https://github.com/user-attachments/assets/8f71aedf-7389-472f-97f1-a2bddd7286e5" width="auto" loop muted decoration:none></video>
+  
+<img width="300"  alt="Image" src="https://github.com/user-attachments/assets/17cfd278-a1b1-432d-bfa2-6e316ed6043b" />
+  <img width="300"  alt="Image" src="https://github.com/user-attachments/assets/590d4c01-b8bb-46cb-84a4-4aea7f958c20" />
+<img width="300"  alt="Image" src="https://github.com/user-attachments/assets/6c4e1c0f-4569-4b4e-9a75-2e5baaaf0f86" />
 </div>
 
 
