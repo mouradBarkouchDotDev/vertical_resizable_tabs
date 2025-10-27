@@ -1,7 +1,9 @@
 name: vertical_resizable_tabs
-description: "A new Flutter package project."
+description: A Flutter widget that displays two vertically resizable panels separated by a draggable divider.
 version: 1.0.0
-homepage:
+repository: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs
+issue_tracker: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs/issues
+homepage: https://mouradbarkouch.dev/
 
 environment:
   sdk: ^3.9.2
