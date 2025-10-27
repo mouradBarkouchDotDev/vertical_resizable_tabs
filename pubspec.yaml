@@ -5,6 +5,9 @@ repository: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs
 issue_tracker: https://github.com/mouradBarkouchDotDev/vertical_resizable_tabs/issues
 homepage: https://mouradbarkouch.dev/
 
+example:
+  path: example/
+
 environment:
   sdk: ^3.9.2
   flutter: ">=1.17.0"
