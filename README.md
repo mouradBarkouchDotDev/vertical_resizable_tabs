@@ -218,7 +218,7 @@ Mourad BARKOUCH
 [dart-url]: https://dart.dev/
 
 [emailme-shield]: https://img.shields.io/badge/mouradbarkouch.dev-red?style=for-the-badge&logo=site&logoColor=white
-[emailme-url]: https://mouradbarkouuch.dev
+[emailme-url]: https://mouradbarkouch.dev
 
-[version-shield]: https://img.shields.io/badge/v1.1.0-green?style=for-the-badge&logo=&logoColor=white
+[version-shield]: https://img.shields.io/badge/v1.0.0-green?style=for-the-badge&logo=&logoColor=white
 [version-url]: #
